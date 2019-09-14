@@ -24,6 +24,6 @@ client.on('message', receivedMessage => {
         processCommand(receivedMessage);     
 })
 
-bot_secret_token = "NjIyMzgwNzM3NTg0NDMxMTA0.XXzDoQ.8Bs2SQz0RUD9z_luxGEt5Mr5WiM";
+bot_secret_token = "NjIyMzgwNzM3NTg0NDMxMTA0.XX0lpQ.yxkxH2EKUZMTv6uBt9KNtWki1lY";
 
 client.login(bot_secret_token);
