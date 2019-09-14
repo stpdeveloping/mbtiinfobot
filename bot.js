@@ -7,7 +7,7 @@ function processCommand(receivedMessage) {
     //var channel = client.channels.get("613706818555871271");
     var message = receivedMessage.content.substring(1, receivedMessage.content.length);
     var path = appRoot.resolve("images/" + message + ".png");
-    //console.log(path);
+    console.log(path);
     fs.access(path, fs.F_OK, err => {
         if (err)
             return;
