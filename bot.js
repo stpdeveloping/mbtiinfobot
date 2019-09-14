@@ -22,8 +22,6 @@ client.on('message', receivedMessage => {
         return;
     if (receivedMessage.content.startsWith("!"))
         processCommand(receivedMessage);     
-})
+});
 
-bot_secret_token = "NjIyMzgwNzM3NTg0NDMxMTA0.XX0lpQ.yxkxH2EKUZMTv6uBt9KNtWki1lY";
-
-client.login(bot_secret_token);
+client.login(process.env.BOT_TOKEN);
